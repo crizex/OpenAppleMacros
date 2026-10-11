@@ -7,5 +7,6 @@ package var all: [Macro.Type] {
         TransientPropertyMacro.self,
         AttributePropertyMacro.self,
         RelationshipPropertyMacro.self,
+        QueryMacro.self,
     ]
 }
