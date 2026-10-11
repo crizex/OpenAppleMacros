@@ -2,6 +2,10 @@ import OpenAppleMacrosBase
 
 package var all: [Macro.Type] {
     [
-        // TODO: implement
+        PersistentModelMacro.self,
+        PersistedPropertyMacro.self,
+        TransientPropertyMacro.self,
+        AttributePropertyMacro.self,
+        RelationshipPropertyMacro.self,
     ]
 }
